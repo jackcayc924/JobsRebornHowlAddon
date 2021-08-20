@@ -1,0 +1,23 @@
+name: NaturesHowl
+version: ${project.version}
+main: 'main.huawind.NaturesHowl'
+api-version: 1.17
+authors: [ Huawind ]
+depend: [ Jobs ]
+softdepend: [ GriefPrevention ]
+description: NaturesHowl Job Abilities
+commands:
+  exploro:
+    description: explorers ability
+    permission: explorer.exploro
+  natureshowl:
+    description: reload natures howl
+    permission: natureshowl.reload
+  NHdebug:
+    description: tool to debug jobs
+    permission: natureshowl.NHdebug
+  NHconfig:
+    description: edit config in-game for jobs
+    permission: natureshowl.NHconfig
+  veinminer:
+    description: toggle veinminer as miner job
